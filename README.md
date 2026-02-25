@@ -10,7 +10,7 @@
 
 > **Hackathon**: Vision Agents Hackathon powered by We Make Devs
 >
-> **Team**: [Your Team Name] | **Date**: February 2026
+> **Team**: [ZenCoders] | **Date**: February 2026
 
 ---
 
@@ -36,9 +36,6 @@
 
 ## 🚀 Project Overview
 
-<div align="center">
-  <img src="https://via.placeholder.com/800x400/4F46E5/FFFFFF?text=Spatial+Multimodal+AI+Engine" alt="Project Banner" width="100%">
-</div>
 
 <br>
 
@@ -369,53 +366,6 @@ pytest tests/integration/ -v
 
 ---
 
-## 📖 API Documentation
-
-### Core Classes
-
-#### `SpatialAIEngine`
-Main engine class for multimodal AI processing.
-
-```python
-class SpatialAIEngine:
-    def __init__(self, config: dict = None)
-    def start_gesture_recognition(self) -> bool
-    def process_voice_command(self, command: str) -> dict
-    def get_object_state(self) -> dict
-    def stop(self) -> None
-```
-
-#### `GestureProcessor`
-Handles computer vision and gesture recognition.
-
-```python
-class GestureProcessor:
-    def detect_gesture(self, frame) -> Gesture
-    def clean_shape(self, gesture: Gesture) -> Shape2D
-    def convert_to_3d(self, shape: Shape2D, command: str) -> Shape3D
-```
-
-### Configuration
-```python
-config = {
-    "vision": {
-        "camera_id": 0,
-        "resolution": [640, 480],
-        "fps": 30
-    },
-    "voice": {
-        "model": "whisper",
-        "language": "en",
-        "sensitivity": 0.8
-    },
-    "rendering": {
-        "engine": "threejs",
-        "quality": "high"
-    }
-}
-```
-
----
 
 ## 🚢 Deployment
 
@@ -547,116 +497,6 @@ We welcome contributions from the community! Here's how you can help:
 
 ---
 
-## 📄 License
-
-<div align="center">
-
-**Spatial Multimodal AI Engine**  
-Copyright © 2026 [Your Team Name]
-
-</div>
-
-<br>
-
-This project is licensed under the **MIT License** - a permissive open-source license that allows you to use, modify, and distribute this software freely.
-
-```text
-MIT License
-
-Copyright (c) 2026 [Your Team Name]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-For the full license text, see [LICENSE](LICENSE).
-
----
-
-## 🙏 Acknowledgments
-
-<div align="center">
-
-### 🏆 Hackathon Sponsors & Partners
-**Vision Agents Hackathon** powered by **We Make Devs**
-
-### 🛠️ Technology Partners
-- **Vision Agents SDK**: For advanced computer vision capabilities
-- **OpenAI & Google**: For AI and real-time processing APIs
-- **Deepgram**: For speech recognition technology
-- **ElevenLabs**: For voice synthesis solutions
-
-### 👥 Community & Contributors
-Special thanks to:
-- The open-source AI community
-- Hackathon mentors and judges
-- Beta testers and early adopters
-- Everyone who provided feedback and support
-
-### 📚 Research & Inspiration
-This project builds upon groundbreaking research in:
-- Multimodal AI systems
-- Spatial computing interfaces
-- Real-time gesture recognition
-- Voice-controlled interactions
-
-</div>
-
----
-
-## 📞 Contact & Support
-
-<div align="center">
-
-### 📧 Get In Touch
-
-**Project Lead**: [Your Name]  
-**Email**: [your.email@example.com]  
-**GitHub**: [@your-username](https://github.com/your-username)  
-**LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
-
-### 💬 Community
-- **GitHub Discussions**: [Join the conversation](https://github.com/your-repo/discussions)
-- **Discord**: [Spatial AI Community](https://discord.gg/spatial-ai)
-- **Twitter**: [@SpatialAI_Engine](https://twitter.com/SpatialAI_Engine)
-
-### 🆘 Support
-- **Issues**: [Report bugs](https://github.com/your-repo/issues)
-- **Documentation**: [Read the docs](https://your-docs-site.com)
-- **FAQ**: [Frequently Asked Questions](FAQ.md)
-
-### 🎯 Business Inquiries
-For partnerships, sponsorships, or commercial licensing:  
-**Email**: business@spatialai.engine  
-**Website**: [www.spatialai.engine](https://www.spatialai.engine)
-
-</div>
-
----
-
-<div align="center">
-
-## 🌟 Star this repository to show your support!
-
-[![GitHub stars](https://img.shields.io/github/stars/your-username/VisionAI-Hackathon-2026.svg?style=social&label=Star)](https://github.com/your-username/VisionAI-Hackathon-2026)
-[![GitHub forks](https://img.shields.io/github/forks/your-username/VisionAI-Hackathon-2026.svg?style=social&label=Fork)](https://github.com/your-username/VisionAI-Hackathon-2026/fork)
-
----
 
 **🎨 Experience the future of spatial AI today!**  
 *Transforming gestures into reality, one voice command at a time.*
